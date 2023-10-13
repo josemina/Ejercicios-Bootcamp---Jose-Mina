@@ -26,7 +26,10 @@ Rótulo('ánguloDeBarrido = 180', 300, 260, tamaño=16)
 Óvalo(300, 325, 190, 100, relleno='oro')
 Arco(300, 325, 190, 100, 90, 180, relleno='azulMarino')
 
-
+#360 Grados
+Rótulo('ánguloDeBarrido = 180', 300, 260, tamaño=16)
+Óvalo(300, 325, 190, 100, relleno='oro')
+Arco(300, 325, 190, 100, 0, 360, relleno='azulMarino')
 ##Trabajando con Circulos
 """Círculo(200, 200, 125, relleno='oro')
 Arco(200, 200, 250, 250, 0, 90, relleno='azulMarino')"""
